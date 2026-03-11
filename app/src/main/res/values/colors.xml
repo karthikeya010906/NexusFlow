@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Generic Colors (For preventing build errors) -->
+    <color name="background_dark">#0D0D0F</color>
+    <color name="surface_dark">#1A1A1F</color>
+    <color name="surface_elevated_dark">#242429</color>
+    <color name="text_primary_dark">#F0F0F5</color>
+    <color name="text_secondary_dark">#8A8A9A</color>
+
+    <color name="background_light">#F8F9FA</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="text_primary_light">#212529</color>
+    <color name="text_secondary_light">#495057</color>
+
+    <!-- Shared Accents -->
+    <color name="accent_purple">#7C3AED</color>
+    <color name="accent_blue">#3B82F6</color>
+    <color name="accent_green">#10B981</color>
+    <color name="accent_red">#EF4444</color>
+
+    <!-- Fire Family - Dark -->
+    <color name="fire_dark_bg">#080002</color>
+    <color name="fire_dark_surface">#120005</color>
+    <color name="fire_dark_card">#1A000A</color>
+    <color name="fire_dark_accent">#FF2D2D</color>
+    <color name="fire_dark_accent2">#FF6B6B</color>
+    <color name="fire_dark_text">#FFE0E0</color>
+    <color name="fire_dark_sub">#7A3030</color>
+
+    <!-- Fire Family - Light -->
+    <color name="fire_light_bg">#FFF8F8</color>
+    <color name="fire_light_surface">#FFF0F0</color>
+    <color name="fire_light_card">#FFFFFF</color>
+    <color name="fire_light_border">#FCA5A5</color>
+    <color name="fire_light_accent">#EF4444</color>
+    <color name="fire_light_accent2">#DC2626</color>
+    <color name="fire_light_text">#1A0505</color>
+    <color name="fire_light_sub">#9B6B6B</color>
+
+    <!-- Solar Family - Dark -->
+    <color name="solar_dark_bg">#0A0800</color>
+    <color name="solar_dark_surface">#111000</color>
+    <color name="solar_dark_card">#1A1600</color>
+    <color name="solar_dark_border">#F59E0B</color>
+    <color name="solar_dark_accent">#FCD34D</color>
+    <color name="solar_dark_accent2">#F59E0B</color>
+    <color name="solar_dark_text">#FFF8E0</color>
+    <color name="solar_dark_sub">#6B5E30</color>
+
+    <!-- Solar Family - Light -->
+    <color name="solar_light_bg">#FFFDF0</color>
+    <color name="solar_light_surface">#FFFFF5</color>
+    <color name="solar_light_card">#FFFFFF</color>
+    <color name="solar_light_border">#FCD34D</color>
+    <color name="solar_light_accent">#F59E0B</color>
+    <color name="solar_light_accent2">#1A1A1A</color>
+    <color name="solar_light_text">#1A1A1A</color>
+    <color name="solar_light_sub">#78716C</color>
+
+    <!-- Pastel Family - Dark -->
+    <color name="pastel_dark_bg">#12071A</color>
+    <color name="pastel_dark_surface">#1A0D24</color>
+    <color name="pastel_dark_card">#221030</color>
+    <color name="pastel_dark_border">#C084FC</color>
+    <color name="pastel_dark_accent">#E879F9</color>
+    <color name="pastel_dark_accent2">#A78BFA</color>
+    <color name="pastel_dark_text">#F5D0FE</color>
+    <color name="pastel_dark_sub">#7C5B8A</color>
+
+    <!-- Pastel Family - Light -->
+    <color name="pastel_light_bg">#FFF5FB</color>
+    <color name="pastel_light_surface">#FEF0F9</color>
+    <color name="pastel_light_card">#FFFFFF</color>
+    <color name="pastel_light_border">#F9A8D4</color>
+    <color name="pastel_light_accent">#EC4899</color>
+    <color name="pastel_light_accent2">#8B5CF6</color>
+    <color name="pastel_light_text">#3B1A2E</color>
+    <color name="pastel_light_sub">#B08FA0</color>
+</resources>

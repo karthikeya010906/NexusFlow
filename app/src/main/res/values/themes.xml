@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Theme -->
+    <style name="Theme.NexusFlow" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
+    </style>
+
+    <!-- Fire Dark -->
+    <style name="Theme.NexusFlow.Fire.Dark" parent="Theme.NexusFlow">
+        <item name="colorPrimary">@color/fire_dark_accent</item>
+        <item name="colorSecondary">@color/fire_dark_accent2</item>
+        <item name="android:windowBackground">@color/fire_dark_bg</item>
+        <item name="colorSurface">@color/fire_dark_surface</item>
+        <item name="colorSurfaceVariant">@color/fire_dark_card</item>
+        <item name="colorOnSurface">@color/fire_dark_text</item>
+        <item name="colorOnSurfaceVariant">@color/fire_dark_sub</item>
+        <item name="colorOutline">@color/accent_red</item>
+        <item name="colorPrimaryContainer">#4D1A1A</item>
+        <item name="android:statusBarColor">@color/fire_dark_bg</item>
+        <item name="android:navigationBarColor">@color/fire_dark_surface</item>
+    </style>
+
+    <!-- Fire Light -->
+    <style name="Theme.NexusFlow.Fire.Light" parent="Theme.NexusFlow">
+        <item name="colorPrimary">@color/fire_light_accent</item>
+        <item name="colorSecondary">@color/fire_light_accent2</item>
+        <item name="android:windowBackground">@color/fire_light_bg</item>
+        <item name="colorSurface">@color/fire_light_surface</item>
+        <item name="colorSurfaceVariant">@color/fire_light_card</item>
+        <item name="colorOnSurface">@color/fire_light_text</item>
+        <item name="colorOnSurfaceVariant">@color/fire_light_sub</item>
+        <item name="colorOutline">@color/fire_light_border</item>
+        <item name="colorPrimaryContainer">#FFE0E0</item>
+        <item name="android:statusBarColor">@color/fire_light_bg</item>
+        <item name="android:navigationBarColor">@color/fire_light_surface</item>
+    </style>
+
+    <!-- Solar Dark -->
+    <style name="Theme.NexusFlow.Solar.Dark" parent="Theme.NexusFlow">
+        <item name="colorPrimary">@color/solar_dark_accent</item>
+        <item name="colorSecondary">@color/solar_dark_accent2</item>
+        <item name="android:windowBackground">@color/solar_dark_bg</item>
+        <item name="colorSurface">@color/solar_dark_surface</item>
+        <item name="colorSurfaceVariant">@color/solar_dark_card</item>
+        <item name="colorOnSurface">@color/solar_dark_text</item>
+        <item name="colorOnSurfaceVariant">@color/solar_dark_sub</item>
+        <item name="colorOutline">@color/solar_dark_border</item>
+        <item name="colorPrimaryContainer">#4D3D00</item>
+        <item name="android:statusBarColor">@color/solar_dark_bg</item>
+        <item name="android:navigationBarColor">@color/solar_dark_surface</item>
+    </style>
+
+    <!-- Solar Light -->
+    <style name="Theme.NexusFlow.Solar.Light" parent="Theme.NexusFlow">
+        <item name="colorPrimary">@color/solar_light_accent</item>
+        <item name="colorSecondary">@color/solar_light_accent2</item>
+        <item name="android:windowBackground">@color/solar_light_bg</item>
+        <item name="colorSurface">@color/solar_light_surface</item>
+        <item name="colorSurfaceVariant">@color/solar_light_card</item>
+        <item name="colorOnSurface">@color/solar_light_text</item>
+        <item name="colorOnSurfaceVariant">@color/solar_light_sub</item>
+        <item name="colorOutline">@color/solar_light_border</item>
+        <item name="colorPrimaryContainer">#FFF8E0</item>
+        <item name="android:statusBarColor">@color/solar_light_bg</item>
+        <item name="android:navigationBarColor">@color/solar_light_surface</item>
+    </style>
+
+    <!-- Pastel Dark -->
+    <style name="Theme.NexusFlow.Pastel.Dark" parent="Theme.NexusFlow">
+        <item name="colorPrimary">@color/pastel_dark_accent</item>
+        <item name="colorSecondary">@color/pastel_dark_accent2</item>
+        <item name="android:windowBackground">@color/pastel_dark_bg</item>
+        <item name="colorSurface">@color/pastel_dark_surface</item>
+        <item name="colorSurfaceVariant">@color/pastel_dark_card</item>
+        <item name="colorOnSurface">@color/pastel_dark_text</item>
+        <item name="colorOnSurfaceVariant">@color/pastel_dark_sub</item>
+        <item name="colorOutline">@color/pastel_dark_border</item>
+        <item name="colorPrimaryContainer">#2D1B4D</item>
+        <item name="android:statusBarColor">@color/pastel_dark_bg</item>
+        <item name="android:navigationBarColor">@color/pastel_dark_surface</item>
+    </style>
+
+    <!-- Pastel Light -->
+    <style name="Theme.NexusFlow.Pastel.Light" parent="Theme.NexusFlow">
+        <item name="colorPrimary">@color/pastel_light_accent</item>
+        <item name="colorSecondary">@color/pastel_light_accent2</item>
+        <item name="android:windowBackground">@color/pastel_light_bg</item>
+        <item name="colorSurface">@color/pastel_light_surface</item>
+        <item name="colorSurfaceVariant">@color/pastel_light_card</item>
+        <item name="colorOnSurface">@color/pastel_light_text</item>
+        <item name="colorOnSurfaceVariant">@color/pastel_light_sub</item>
+        <item name="colorOutline">@color/pastel_light_border</item>
+        <item name="colorPrimaryContainer">#F3E8FF</item>
+        <item name="android:statusBarColor">@color/pastel_light_bg</item>
+        <item name="android:navigationBarColor">@color/pastel_light_surface</item>
+    </style>
+
+    <style name="Theme.NexusFlow.Dialog" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="Theme.MaterialComponents.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>

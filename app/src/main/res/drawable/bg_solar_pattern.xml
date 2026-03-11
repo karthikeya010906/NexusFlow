@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="800dp"
+    android:viewportWidth="400"
+    android:viewportHeight="800">
+    <!-- Removed solid background path -->
+    <path
+        android:alpha="0.1"
+        android:fillColor="#FCD34D"
+        android:pathData="M200,100 l40,80 l-80,0z" />
+    <path
+        android:alpha="0.08"
+        android:fillColor="#F59E0B"
+        android:pathData="M50,400 l60,120 l-120,0z" />
+    <path
+        android:alpha="0.1"
+        android:fillColor="#FBBF24"
+        android:pathData="M300,600 l50,100 l-100,0z" />
+</vector>
